@@ -1,11 +1,11 @@
    
 function frames(variable){
-    document.getElementById("enframe").src="pages/home.html";
+    document.getElementById("enframe").src="pages/home";
     if (variable==1){
-        document.getElementById("enframe").src="pages/home.html";
+        document.getElementById("enframe").src="pages/home";
     }
     else if (variable==2){
-        document.getElementById("enframe").src="pages/about_me.html";
+        document.getElementById("enframe").src="pages/about_me";
     }
     else if (variable==3){
         document.getElementById("enframe").src="pages/published.html";

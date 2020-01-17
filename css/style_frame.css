@@ -66,6 +66,11 @@ td#numerito2 {
     width: 11%;
 }
 
+td#numerito3 {
+    text-align: left;
+    width: 11%;
+}
+
 li {
     text-align: justify;
 }

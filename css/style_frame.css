@@ -78,6 +78,7 @@ li {
 table#izquierda {
     text-align: left;
     margin-left: 3%;
+    width: 98%;
 }
 
 table#barra, tr#barra-tr {

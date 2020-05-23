@@ -4,19 +4,20 @@ This is the main CSS file for my webpage
 
 
 /* Html Elements */
+
 html {
     background-color: #EBEBEB;
-    font: normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+    font: normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;  
 }
 
 body {
     padding: 0;
     clear: both;
     margin: 0 auto;
-    text-align: center;
+    text-align: center;	
 }
 
-a {
+a { 
     color: #4E92F1;
     font-weight: bold;
     text-decoration:none;
@@ -34,19 +35,20 @@ h1 a, h2 a{
     border-bottom-width: 0;
 }
 
-
 /* Container */
 #container {
     background-color: white;
     background-image: url(../img/bg.png);
-    width: 850px;
+    width: 900px;
     margin: 0 auto;
     box-shadow: 0px 0px 8px 2px rgba(78, 146, 241, 0.5);
     -moz-box-shadow: 0px 0px 8px 2px rgba(78, 146, 241, 0.5);
     -webkit-box-shadow: 0px 0px 8px 2px rgba(78, 146, 241, 0.5);
 }
 
-/* Header */
+
+/* header */
+
 #header {
     text-align:center; 
     vertical-align:middle; 
@@ -80,14 +82,14 @@ div.wrap {
 
 #slide-holder {
     z-index : 40;
-    width : 815px;
+    width : 864px;
     height : 200px;
     position : absolute;
     border: 1px solid #392222;
 }
 
 #slide-holder #slide-runner {
-    width : 815px;
+    width : 864px;
     height : 200px;
     overflow : hidden;
     position : absolute;
@@ -102,7 +104,7 @@ div.wrap {
 #slide-holder #slide-controls {
     left : 0;
     bottom : 0px;
-    width : 815px;
+    width : 864px;
     height : 27px;
     display : none;
     position : absolute;
@@ -148,7 +150,6 @@ div.wrap {
     background-image : url(../img/silde-nav.png);
     color: white;
 }
-
 
 /* Navigation */
 
@@ -201,15 +202,15 @@ li#lihome a{
     background-color: #2578EC;
 }
 
-/* Navigation-inf */
 
-#navigation-inf {
-    float: left;
-    width: 96%;
+/* menu */
+
+#menu {
+    margin-top: -2%;
+	float: left;
+    width: 15%;
     clear: both;
-    padding-left: 1.4%;
-    margin-top: -4%;
-    font: normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+    padding-left: 1.5%;
 }
 
 * {
@@ -219,12 +220,13 @@ li#lihome a{
     padding:0;
 }
 
-.nav-inf > li {
+.nav-menu > li {
+    width: 100%;
     float:left;
 }
 
-.nav-inf li a {
-    text-align: center;
+.nav-menu li a {
+    text-align: left;
     background: #4E92F1;
     border: 1px solid #392222;
     color: white;
@@ -232,42 +234,24 @@ li#lihome a{
     padding: 8px 13px;
 }
 
-.nav-inf li a:not(:last-child) .flecha {
-    display: inline;
-}
-
-.nav-inf li a:hover {
+.nav-menu li a:hover {
     background: #2578EC;
 }
 
-.nav-inf li {
+.nav-menu li {
     position: relative;
     padding: 4px 5px;
 }
 
-.nav-inf li ul {
-    display: none;
-    position: absolute;
-    min-width: 135px;
-    margin-left: -4%;
-}
 
-.nav-inf li:hover > ul {
-    display: block;
-}
+/* main-body */
 
-.nav-inf li ul li ul {
-    right:-350px;
-}
-
-
-/* Content */
-#content {
-    margin-left: 1%;
-    margin-top: 1%;
-    float: left;
-    width: 98%;
-    clear: both;
+#main-body {
+	width: 82%;
+	margin-top: -4%;
+	margin-left: 1%;
+	float: left;
+	text-align:justify;
 }
 
 

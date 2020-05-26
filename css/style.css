@@ -258,14 +258,16 @@ li#lihome a{
 /* Footer */
 #footer {
     border-top: 1px dashed #2578EC;
-    width: 96%;
     clear: both;
-    padding: 15px 0 15px;
+    padding: 10px 0 10px;
     text-align: center;
+    color: #fff;
+    font-size: 1em;
+    background : url(../img/slide-bg.png) 0 0;
 }
 
 #footer a{
-    color: #2578EC;
+	color: #eff8ff;
 }
 
 .copyleft {

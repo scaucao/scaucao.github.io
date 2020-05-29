@@ -206,8 +206,8 @@ li#lihome a{
 /* menu */
 
 #menu {
-    margin-top: -2%;
-	float: left;
+    margin-top: -3%;
+    float: left;
     width: 15%;
     clear: both;
     padding-left: 1.5%;
@@ -248,7 +248,7 @@ li#lihome a{
 
 #main-body {
 	width: 82%;
-	margin-top: -4%;
+	margin-top: -2%;
 	margin-left: 1%;
 	float: left;
 	text-align:justify;

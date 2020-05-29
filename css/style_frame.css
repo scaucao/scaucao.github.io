@@ -1,7 +1,8 @@
 /* Html Elements */
 html { 
-  font: normal 13px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
-  text-align:justify;
+    margin-top: -3%;  
+    font: normal 13px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+    text-align:justify;
 }
 
 a { 

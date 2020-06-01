@@ -256,8 +256,7 @@ li#lihome a{
 
 
 /* Footer */
-#footer {
-    border-top: 1px dashed #2578EC;
+#footer {    
     clear: both;
     padding: 10px 0 10px;
     text-align: center;

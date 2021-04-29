@@ -5,6 +5,10 @@ html {
     text-align:justify;
 }
 
+p {
+    font: normal 13px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+}
+
 a { 
     color: #4E92F1;
     font-weight: bold; 

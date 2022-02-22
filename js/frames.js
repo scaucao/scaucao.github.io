@@ -11,12 +11,12 @@ function frames(variable){
         document.getElementById("enframe").height="600";
     }
     else if (variable==3){
-        document.getElementById("enframe").src="pages/publications.html";
-        document.getElementById("enframe").height="1500";
-    }
-    else if (variable==4){
         document.getElementById("enframe").src="pages/projects.html";
         document.getElementById("enframe").height="600";
+    }
+    else if (variable==4){
+        document.getElementById("enframe").src="pages/publications.html";
+        document.getElementById("enframe").height="1500";
     }
     else if (variable==5){
         document.getElementById("enframe").src="pages/talks.html";

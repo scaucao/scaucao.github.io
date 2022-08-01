@@ -24,7 +24,7 @@ function frames(variable){
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/students.html";  
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="700";
     }
     else if (variable==7){
         document.getElementById("enframe").src="pages/teaching.html";

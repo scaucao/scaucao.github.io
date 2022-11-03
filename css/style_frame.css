@@ -15,6 +15,12 @@ a {
     text-decoration:none;
 }
 
+a.externos {  
+    color: #000;
+    font-weight: bold; 
+    border-bottom: #EA215A 0.125em dotted;
+}
+
 h1, h2, h3 { 
     font-weight: normal; 
     margin: 5px 0 10px; 

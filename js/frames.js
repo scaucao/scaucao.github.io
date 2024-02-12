@@ -8,7 +8,7 @@ function frames(variable){
     }
     else if (variable==2){
         document.getElementById("enframe").src="pages/about_me.html";
-        document.getElementById("enframe").height="700";
+        document.getElementById("enframe").height="650";
     }
     else if (variable==3){
         document.getElementById("enframe").src="pages/projects.html";

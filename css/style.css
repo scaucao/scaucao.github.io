@@ -23,6 +23,12 @@ a {
     text-decoration:none;
 }
 
+a.externos {  
+    color: #000;
+    font-weight: bold; 
+    border-bottom: #EA215A 0.125em dotted;
+}
+
 h1, h2{
     font-weight: normal;
     margin: 5px 0 10px;
@@ -160,42 +166,6 @@ div.wrap {
     clear: both;
     padding-left: 2%;
     font: normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
-}
-
-
-#navigation-sup ul
-{
-    padding: 0;
-	width: 100%;
-    height: 30px;
-	float: left;
-	margin: 0 0 10px;
-	list-style-type: none;
-	background-color: #4E92F1;
-	border: 1px solid #392222;
-}
-
-#navigation-sup a:link,
-#navigation-sup a:visited
-{
-	float: left;
-	display: block;
-	color: #eff8ff;
-	padding: 8px 18px;
-	border-bottom-width: 0;
-}
-
-#navigation-sup li a {
-    text-align: center;
-    background: #4E92F1;
-    color: white;
-    display: block;
-    padding: 8px 18px;
-}
-
-#navigation-sup li a:hover,
-#navigation-sup a:active {
-    background: #2578EC;
 }
 
 li#lihome a{

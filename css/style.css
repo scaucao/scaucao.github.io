@@ -91,7 +91,7 @@ div.wrap {
     width : 864px;
     height : 200px;
     position : absolute;
-    border: 1px solid #392222;
+    border: 2px solid #392222;
 }
 
 #slide-holder #slide-runner {

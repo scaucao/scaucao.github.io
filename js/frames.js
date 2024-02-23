@@ -20,7 +20,7 @@ function frames(variable){
     }
     else if (variable==5){
         document.getElementById("enframe").src="pages/talks.html";
-        document.getElementById("enframe").height="1540";
+        document.getElementById("enframe").height="1550";
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/students.html";  

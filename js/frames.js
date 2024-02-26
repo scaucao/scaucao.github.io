@@ -24,7 +24,7 @@ function frames(variable){
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/students.html";  
-        document.getElementById("enframe").height="750";
+        document.getElementById("enframe").height="740";
     }
     else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";

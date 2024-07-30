@@ -1,10 +1,10 @@
    
 function frames(variable){
         document.getElementById("enframe").src="pages/home.html";
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="610";
     if (variable==1){
         document.getElementById("enframe").src="pages/home.html";
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="610";
     }
     else if (variable==2){
         document.getElementById("enframe").src="pages/about_me.html";
@@ -12,7 +12,7 @@ function frames(variable){
     }
     else if (variable==3){
         document.getElementById("enframe").src="pages/projects.html";
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="610";
     }
     else if (variable==4){
         document.getElementById("enframe").src="pages/publications.html";
@@ -28,10 +28,10 @@ function frames(variable){
     }
     else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="610";
     }  
     else if (variable==8){
         document.getElementById("enframe").src="pages/teaching.html";
-        document.getElementById("enframe").height="600";
+        document.getElementById("enframe").height="610";
     } 
 } 

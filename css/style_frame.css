@@ -13,7 +13,7 @@ a {
     color: #2578EC;
     font-weight: bold; 
     text-decoration:none;    
-    border-bottom: #EA215A 0.125em dotted;
+    border-bottom: #000 0.125em dotted;
 }
 
 a.externos {  

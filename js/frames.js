@@ -28,7 +28,7 @@ function frames(variable){
     }
     else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";
-        document.getElementById("enframe").height="610";
+        document.getElementById("enframe").height="630";
     }  
     else if (variable==8){
         document.getElementById("enframe").src="pages/teaching.html";

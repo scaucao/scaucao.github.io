@@ -16,7 +16,7 @@ function frames(variable){
     }
     else if (variable==4){
         document.getElementById("enframe").src="pages/publications.html";
-        document.getElementById("enframe").height="2270";
+        document.getElementById("enframe").height="2280";
     }
     else if (variable==5){
         document.getElementById("enframe").src="pages/talks.html";

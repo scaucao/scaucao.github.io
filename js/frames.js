@@ -19,21 +19,21 @@ function frames(variable){
         document.getElementById("enframe").height="2300";
     }
     else if (variable==5){
-        document.getElementById("enframe").src="pages/talks.html";
-        document.getElementById("enframe").height="1770";
-    }
-    else if (variable==6){
         document.getElementById("enframe").src="pages/students.html";  
         document.getElementById("enframe").height="740";
     }
-    else if (variable==7){
+    else if (variable==6){
         document.getElementById("enframe").src="pages/postdocs-RAs.html";  
         document.getElementById("enframe").height="600";
     }       
-    else if (variable==8){
+    else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";
         document.getElementById("enframe").height="680";
     }  
+    else if (variable==8){
+        document.getElementById("enframe").src="pages/talks.html";
+        document.getElementById("enframe").height="1770";
+    }       
     else if (variable==9){
         document.getElementById("enframe").src="pages/teaching.html";
         document.getElementById("enframe").height="640";

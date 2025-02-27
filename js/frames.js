@@ -32,7 +32,7 @@ function frames(variable){
     }  
     else if (variable==8){
         document.getElementById("enframe").src="pages/talks.html";
-        document.getElementById("enframe").height="1850";
+        document.getElementById("enframe").height="1840";
     }       
     else if (variable==9){
         document.getElementById("enframe").src="pages/teaching.html";

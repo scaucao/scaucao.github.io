@@ -28,11 +28,11 @@ function frames(variable){
     }       
     else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";
-        document.getElementById("enframe").height="710";
+        document.getElementById("enframe").height="730";
     }  
     else if (variable==8){
         document.getElementById("enframe").src="pages/talks.html";
-        document.getElementById("enframe").height="1900";
+        document.getElementById("enframe").height="1950";
     }       
     else if (variable==9){
         document.getElementById("enframe").src="pages/teaching.html";

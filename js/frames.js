@@ -36,6 +36,6 @@ function frames(variable){
     }       
     else if (variable==9){
         document.getElementById("enframe").src="pages/teaching.html";
-        document.getElementById("enframe").height="750";
+        document.getElementById("enframe").height="740";
     } 
 } 

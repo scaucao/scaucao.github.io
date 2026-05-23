@@ -24,7 +24,7 @@ function frames(variable){
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/postdocs-RAs.html";  
-        document.getElementById("enframe").height="800";
+        document.getElementById("enframe").height="850";
     }       
     else if (variable==7){
         document.getElementById("enframe").src="pages/worth-noting.html";

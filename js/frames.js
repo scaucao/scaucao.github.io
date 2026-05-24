@@ -16,7 +16,7 @@ function frames(variable){
     }
     else if (variable==4){
         document.getElementById("enframe").src="pages/publications.html";
-        document.getElementById("enframe").height="2860";
+        document.getElementById("enframe").height="2900";
     }
     else if (variable==5){
         document.getElementById("enframe").src="pages/students.html";  

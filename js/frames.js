@@ -12,7 +12,7 @@ function frames(variable){
     }
     else if (variable==3){
         document.getElementById("enframe").src="pages/projects.html";
-        document.getElementById("enframe").height="660";
+        document.getElementById("enframe").height="720";
     }
     else if (variable==4){
         document.getElementById("enframe").src="pages/publications.html";
